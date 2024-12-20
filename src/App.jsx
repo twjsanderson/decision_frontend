@@ -1,10 +1,11 @@
 import { Routes, Route } from 'react-router-dom';
 
-import Footer from "./containers/footer"
-import Header from "./containers/header"
 import Home from './pages/Home';
+import Application from './pages/Application';
 
-import CheckoutButton from './containers/CheckoutButton';
+import Footer from './containers/footer'
+import Header from './containers/header'
+
 
 function App() {
   return (
@@ -12,7 +13,7 @@ function App() {
       <Header />
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/checkout" element={<CheckoutButton />} />
+        <Route path="/application" element={<Application />} />
       </Routes>
       <Footer />
     </>
