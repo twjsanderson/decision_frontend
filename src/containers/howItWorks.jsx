@@ -59,7 +59,7 @@ export default function HowItWorks() {
             </Text>
             <Image
               height="110px"
-              src="src/assets/theorem_1.png"
+              src="assets/theorem_1.png"
             />
             <Text fontWeight="bold" marginTop='3%' fontSize={{ base: 'md', xl: 'xl' }}as={'span'}
                 position={'relative'}
@@ -82,7 +82,7 @@ export default function HowItWorks() {
             </Text>
             <Image
               height="110px"
-              src="src/assets/theorem_2.png"
+              src="assets/theorem_2.png"
             />
             <Text fontWeight="bold" marginTop='3%' fontSize={{ base: 'md', xl: 'xl' }}as={'span'}
                 position={'relative'}
@@ -104,7 +104,7 @@ export default function HowItWorks() {
             </Text>
             <Image
               height="110px"
-              src="src/assets/theorem_3.png"
+              src="assets/theorem_3.png"
             />
             <Text marginBottom='5%' fontSize={{ base: 'md', lg: 'lg' }}>
               There is a 25% chance a customer will buy your product after clicking the ad.
@@ -112,9 +112,9 @@ export default function HowItWorks() {
           </Stack>
         </Flex>
         <Stack spacing={6} w={'full'} maxW={'lg'}>
-          <video hieght='300px' autoPlay loop muted playsInline width="60%" src={'src/assets/3_vid.mp4'} />
-          <video hieght='300px' autoPlay loop muted playsInline width="60%" src={'src/assets/1_vid.mp4'} />
-          <video hieght='300px' autoPlay loop muted playsInline width="60%" src={'src/assets/2_vid.mp4'} />
+          <video height='300px' autoPlay loop muted playsInline width="60%" src={'assets/3_vid.mp4'} />
+          <video height='300px' autoPlay loop muted playsInline width="60%" src={'assets/1_vid.mp4'} />
+          <video height='300px' autoPlay loop muted playsInline width="60%" src={'assets/2_vid.mp4'} />
         </Stack>
       </Stack>
       <Stack direction={{ base: 'column', md: 'row' }} justifyContent={'center'} spacing={4}>
