@@ -13,28 +13,28 @@ export default function HowItWorks() {
   return (
     <Box marginBottom={'7%'}>
       <Flex p={8} flex={1} align={'center'} justify={'center'}>
-      <Heading fontSize={{ base: '3xl', md: '4xl', lg: '5xl' }}>
-        <Stack spacing={6} w={'full'} maxW={'lg'} marginBottom={'5%'}>
-          <Text
-            as={'span'}
-            position={'relative'}
-            _after={{
-              content: "''",
-              width: 'full',
-              height: useBreakpointValue({ base: '20%', md: '50%' }),
-              position: 'absolute',
-              bottom: -1.45,
-              left: 0,
-              bg: 'green.400',
-              zIndex: -1,
-            }}>
-            How It Works
-          </Text>
-          <Text color={'green.400'} as={'span'} marginTop={'2%'}>
-            Bayesian Thinking
-          </Text>
-        </Stack>
-      </Heading>
+        <Heading fontSize={{ base: '3xl', md: '4xl', lg: '5xl' }}>
+          <Stack spacing={6} w={'full'} maxW={'lg'} marginBottom={'5%'}>
+            <Text
+              as={'span'}
+              position={'relative'}
+              _after={{
+                content: "''",
+                width: 'full',
+                height: useBreakpointValue({ base: '20%', md: '50%' }),
+                position: 'absolute',
+                bottom: -1.45,
+                left: 0,
+                bg: 'green.400',
+                zIndex: -1,
+              }}>
+              How It Works
+            </Text>
+            <Text color={'green.400'} as={'span'} marginTop={'2%'}>
+              Bayesian Thinking
+            </Text>
+          </Stack>
+        </Heading>
       </Flex>
       <Stack minH={'100vh'} direction={{ base: 'column', md: 'row' }}>
         <Flex p={8} flex={1} align={'center'} justify={'center'}>

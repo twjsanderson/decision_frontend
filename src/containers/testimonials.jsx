@@ -7,7 +7,6 @@ import {
   Container, 
 } from '@chakra-ui/react'
 
-
 const Testimonial = (props) => {
   const { children } = props
 

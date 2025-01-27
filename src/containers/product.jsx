@@ -1,4 +1,4 @@
-import CheckoutButton from "./CheckoutButton";
+import CheckoutButton from "../components/checkoutButton";
 
 const Product = () => {
     return (
